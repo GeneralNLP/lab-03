@@ -19,7 +19,6 @@ public class CityArrayAdapter extends ArrayAdapter<City> {
 
     @NonNull
     @Override
-
     public View getView(int position, @Nullable View convertview, @NonNull ViewGroup parent){
         View view;
         if (convertview==null) {
